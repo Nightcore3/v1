@@ -27,10 +27,10 @@ public abstract class GameState {
     public GameState(GameStateManager gsm){
         this.gsm=gsm;
         
-        game=gsm.GetGame();
-        sb=game.GetSb();
-        renderer=game.GetRender;
-        camera=game.GetCamera();
+        game=gsm.getGame();
+        sb=game.getSb();
+        renderer=game.getRender;
+        camera=game.getCamera();
         
     }
     

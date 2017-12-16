@@ -21,7 +21,7 @@ public class GameStateManager {
         gameStates=new Stack<GameState>();
     }
     
-    public Game Getgame(){
+    public Game getgame(){
         
         return game;
     }
